@@ -14,3 +14,13 @@ function generatePassword(lower, upper, number, symbol, length) {
   const finalPassword = generatePassword.slice(0, length);
   return finalPassword;
 }
+
+let button = document.getElementById("'clipboardBtn");
+button.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.execCommand(
+    "copy",
+    false,
+    document.getElementById("PasswordResult").ariaSelected()
+  );
+});
