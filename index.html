@@ -8,6 +8,10 @@
       rel="icon"
       href="https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/e9/af/3c/e9af3cd1-7af8-5cf5-5e78-9dd374ab0f50/source/512x512bb.jpg"
     />
+    <script
+      src="https://kit.fontawesome.com/20c06aecf1.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Password Generator</title>
   </head>
@@ -18,36 +22,36 @@
     </div>
     <!-- Password settings will be done here -->
     <div class="settings">
-        <div class="setting">
-          <label>Password length</label>
-          <input type="number" id="Passwordlength" min="4" max="20" value="8" />
-        </div>
-        <div class="setting">
-          <label>Include uppercase letters</label>
-          <input type="checkbox" id="uppercase" checked />
-        </div>
-        <div class="setting">
-          <label>Include lowercase letters</label>
-          <input type="checkbox" id="lowercase" checked />
-        </div>
-        <div class="setting">
-          <label>Include number</label>
-          <input type="checkbox" id="number" checked />
-        </div>
-        <div class="setting">
-          <label>Include symbols</label>
-          <input type="checkbox" id="symbols" checked />
-        </div>
+      <div class="setting">
+        <label>Password length</label>
+        <input type="number" id="Passwordlength" min="4" max="20" value="8" />
       </div>
-      <!-- Buttons to generate and copy -->
-      <div class="buttons">
-        <button class="btn btn-large" id="generatebtn">
-          <i class="fa fa-key"></i>Generate
-        </button>
-        <button class="btn btn-large" id="generatebtn">
-          <i class="fa fa-clpboard"></i>Copy
-        </button>
+      <div class="setting">
+        <label>Include uppercase letters</label>
+        <input type="checkbox" id="uppercase" checked />
       </div>
+      <div class="setting">
+        <label>Include lowercase letters</label>
+        <input type="checkbox" id="lowercase" checked />
+      </div>
+      <div class="setting">
+        <label>Include number</label>
+        <input type="checkbox" id="number" checked />
+      </div>
+      <div class="setting">
+        <label>Include symbols</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
+    </div>
+    <!-- Buttons to generate and copy -->
+    <div class="buttons">
+      <button class="btn btn-large" id="generatebtn">
+        <i class="fa-solid fa-key"></i>Generate
+      </button>
+      <button class="btn btn-large" id="generatebtn">
+        <i class="fa-solid fa-clipboard"></i>Copy
+      </button>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
