@@ -22,3 +22,28 @@ textarea {
   outline: none;
   resize: none;
 }
+
+.result-container .btn{
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.button{
+    display: flex;
+}
+
+.btn{
+    width: 50%;
+    border: none;
+    color: var(--color);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 14px 5px 7px 5px;
+    background-color: var(--bg-color);
+    filter: var(--filter2);
+}
